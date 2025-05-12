@@ -8,9 +8,9 @@ function SearchClient() {
     navigate('/clients')
   }
   return (
-    <main>
+    <main className='searchClient'>
       <h1>Search Cliente</h1>
-      <section className='searchClient'>
+      <section>
         <input type="email" name='emailClient' id='emailClient' placeholder="Email" />
         <button onClick={search}>Search</button>
         <a href="/search-products">Search Product</a>

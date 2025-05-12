@@ -1,7 +1,15 @@
+.searchClient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
 h1{
     margin-bottom: 40px;
 }
-.searchClient {
+.searchClient section {
     background-color: var(--color-main);
     border-radius: 10px;
     height: 300px;
@@ -11,21 +19,21 @@ h1{
     flex-direction: column;
     justify-content: space-around;
 }
-input {
+.searchClient input {
     padding: 10px;
     border-radius: 10px;
     border: none;
     font-size: 16px;
 }
-section a {
+.searchClient section a {
   color: white;
 }
-section a:hover {
+.searchClient section a:hover {
   color: var(--color-secondary);
 }
 @media (max-width: 450px) {
     
-    section {
+    .searchClient section {
         width: 100%;
     }
 }

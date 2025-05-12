@@ -1,12 +1,10 @@
 function NotFound() {
   return (
-    <>
-      <div className="card">
+    <main className="not-found">
         <h1>404</h1>
         <h2>Page not found</h2>
-        <a href="/">Back to home</a>
-      </div>
-    </>
+        <a href="/">&#8592; Back to home</a>
+    </main>
   )
 }
 
