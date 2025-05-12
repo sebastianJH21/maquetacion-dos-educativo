@@ -1,9 +1,9 @@
-import App from "./App"
+import SearchClient from "./pages/clients/SearchClient"
 import NotFound from "./NotFound"
 export let router = [
     {
         path: '/',
-        element: <App />, 
+        element: <SearchClient />, 
     },
     {
         path: '*',

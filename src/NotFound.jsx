@@ -1,21 +1,15 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-
+import { useLocation } from "react-router-dom"
 function NotFound() {
+  const location = useLocation();
+  const query = new URLSearchParams(location.search);
+  const emial = query.get('email');
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
           <div className="card">
               <h1>404</h1>
               <h2>Page not found</h2>
+              <a href="/">Back to home</a>
+              <h1>{emial}</h1>
         </div>
     </>
   )
