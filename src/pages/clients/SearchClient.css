@@ -1,18 +1,31 @@
 h1{
-    margin-bottom: 2rem;
+    margin-bottom: 40px;
 }
 section {
     background-color: var(--color-main);
-    border-radius: 1rem;
-    min-height: 30rem;
-    min-width: 40rem;
-    padding: 4rem;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 input {
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 10px;
+    border-radius: 10px;
     border: none;
+    font-size: 16px;
+}
+section a {
+  color: white;
+}
+section a:hover {
+  color: var(--color-secondary);
+}
+@media (max-width: 450px) {
+    
+    section {
+        width: 100%;
+    }
 }
