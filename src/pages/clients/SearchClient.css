@@ -1,7 +1,7 @@
 h1{
     margin-bottom: 40px;
 }
-section {
+.searchClient {
     background-color: var(--color-main);
     border-radius: 10px;
     height: 300px;

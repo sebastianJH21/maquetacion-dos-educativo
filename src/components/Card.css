@@ -1,0 +1,36 @@
+/* section {
+    background: none;
+    height: 300px;
+    width: 400px;
+} */
+.card {
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card :first-child {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.card :last-child {
+    position: relative;
+    top: -55px;
+    background-color: var(--color-secondary);
+    width: 100px;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: var(--color-main);
+    font-weight: bold;
+}
+.card :last-child:hover {
+    background-color: var(--color-main);
+    color: var(--color-secondary);
+    cursor: pointer;
+}
