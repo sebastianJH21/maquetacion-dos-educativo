@@ -19,10 +19,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-image: url(../public/background.png);
+  background-color: black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-bottom: 30px;
 }
 a {
   font-weight: 500;
@@ -75,7 +75,7 @@ button:focus-visible {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  height: 100vh;
+  height: 100%;
 }
 .not-found {
   display: flex;
